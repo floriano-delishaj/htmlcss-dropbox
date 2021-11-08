@@ -55,8 +55,11 @@ body {
 nav {
     height: 60px;
     line-height: 60px;
-    vertical-align: -6px;
     background: #fff;
+}
+
+nav img {
+    vertical-align: middle;
 }
 
 nav ul li {
@@ -332,6 +335,7 @@ nav a {
 
 .img-business img {
     width: 100%;
+    vertical-align: middle;
 }
 
 .text-business p {
@@ -454,13 +458,14 @@ nav a {
     position: relative
 }
 
-.container-section-medium.quetions h2 {
+.container-section-small.quetions h2 {
     font-size: 30px;
-    padding-bottom: 60px;
+    padding: 120px 0 60px 0;
 }
 
 div.box-quetions:last-child {
     border-bottom: 1px solid rgb(172, 172, 172);
+    margin-bottom: 120px;
 }
 
 .box-quetions span {
@@ -481,6 +486,7 @@ div.box-quetions:last-child {
 
 .box-footer {
     width: 20%;
+    padding:100px 40px 130px 0;
 }
 
 .box-footer a {
@@ -492,6 +498,19 @@ div.box-quetions:last-child {
     list-style: none;
 }
 
+.box-footer li {
+    padding-bottom: 10px;
+}
+
 .box-footer li h3 {
     padding-bottom: 20px;
+}
+
+.hr-footer {
+    width: 150px;
+}
+
+.lang {
+    padding: 50px 0 50px 0;
+    color: #ccc;
 }
